@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="margin-plus-accounting-db">
+		<class>com.prompt.marginplus.entities.ChapterSectionMap</class>
+		<class>com.prompt.marginplus.entities.ConsigneeDetail</class>
+		<class>com.prompt.marginplus.entities.CreditNote</class>
+		<class>com.prompt.marginplus.entities.CreditNoteItem</class>
+		<class>com.prompt.marginplus.entities.CreditNoteTaxItem</class>
+		<class>com.prompt.marginplus.entities.CustomerDetail</class>
+		<class>com.prompt.marginplus.entities.ExpensesEntity</class>
+		<class>com.prompt.marginplus.entities.HSN</class>
+		<class>com.prompt.marginplus.entities.HsnChapterMap</class>
+		<class>com.prompt.marginplus.entities.HsnchapterMaster</class>
+		<class>com.prompt.marginplus.entities.Hsnmaster</class>
+		<class>com.prompt.marginplus.entities.Inventorydetail</class>
+		<class>com.prompt.marginplus.entities.Inventoryrefilldetail</class>
+		<class>com.prompt.marginplus.entities.InvoiceNumberDetail</class>
+		<class>com.prompt.marginplus.entities.Invoicedetail</class>
+		<class>com.prompt.marginplus.entities.Invoiceitemdetail</class>
+		<class>com.prompt.marginplus.entities.Invoiceitemtaxdetail</class>
+		<class>com.prompt.marginplus.entities.Productdetail</class>
+		<class>com.prompt.marginplus.entities.SacAccountingcodeGroupMap</class>
+		<class>com.prompt.marginplus.entities.SacGroupHeadinMap</class>
+		<class>com.prompt.marginplus.entities.SacGroupMaster</class>
+		<class>com.prompt.marginplus.entities.SacHeadingMaster</class>
+		<class>com.prompt.marginplus.entities.SacMaster</class>
+		<class>com.prompt.marginplus.entities.SectionMaster</class>
+		<class>com.prompt.marginplus.entities.Servicedetail</class>
+		<class>com.prompt.marginplus.entities.Servicemaintainencedetail</class>
+		<class>com.prompt.marginplus.entities.Servicerecord</class>
+		<class>com.prompt.marginplus.entities.State</class>
+		<class>com.prompt.marginplus.entities.Taxrate</class>
+		<class>com.prompt.marginplus.entities.User</class>
+		<class>com.prompt.marginplus.entities.UserRole</class>
+		<validation-mode>NONE</validation-mode>
+		<properties>
+			<property name="hibernate.ejb.cfgfile" value="hibernate.cfg.xml"/>
+		</properties>
+	</persistence-unit>
+</persistence>

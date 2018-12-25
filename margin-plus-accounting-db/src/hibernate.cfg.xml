@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">1235811</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/accounting</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.default_schema">accounting</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>
+        <mapping class="com.prompt.marginplus.entities.ChapterSectionMap"/>
+<mapping class="com.prompt.marginplus.entities.ConsigneeDetail"/>
+<mapping class="com.prompt.marginplus.entities.CreditNote"/>
+<mapping class="com.prompt.marginplus.entities.CreditNoteItem"/>
+<mapping class="com.prompt.marginplus.entities.CreditNoteTaxItem"/>
+<mapping class="com.prompt.marginplus.entities.CustomerDetail"/>
+<mapping class="com.prompt.marginplus.entities.ExpensesEntity"/>
+<mapping class="com.prompt.marginplus.entities.HSN"/>
+<mapping class="com.prompt.marginplus.entities.HsnChapterMap"/>
+<mapping class="com.prompt.marginplus.entities.HsnchapterMaster"/>
+<mapping class="com.prompt.marginplus.entities.Hsnmaster"/>
+<mapping class="com.prompt.marginplus.entities.Inventorydetail"/>
+<mapping class="com.prompt.marginplus.entities.Inventoryrefilldetail"/>
+<mapping class="com.prompt.marginplus.entities.InvoiceNumberDetail"/>
+<mapping class="com.prompt.marginplus.entities.Invoicedetail"/>
+<mapping class="com.prompt.marginplus.entities.Invoiceitemdetail"/>
+<mapping class="com.prompt.marginplus.entities.Invoiceitemtaxdetail"/>
+<mapping class="com.prompt.marginplus.entities.Productdetail"/>
+<mapping class="com.prompt.marginplus.entities.SacAccountingcodeGroupMap"/>
+<mapping class="com.prompt.marginplus.entities.SacGroupHeadinMap"/>
+<mapping class="com.prompt.marginplus.entities.SacGroupMaster"/>
+<mapping class="com.prompt.marginplus.entities.SacHeadingMaster"/>
+<mapping class="com.prompt.marginplus.entities.SacMaster"/>
+<mapping class="com.prompt.marginplus.entities.SectionMaster"/>
+<mapping class="com.prompt.marginplus.entities.Servicedetail"/>
+<mapping class="com.prompt.marginplus.entities.Servicemaintainencedetail"/>
+<mapping class="com.prompt.marginplus.entities.Servicerecord"/>
+<mapping class="com.prompt.marginplus.entities.State"/>
+<mapping class="com.prompt.marginplus.entities.Taxrate"/>
+<mapping class="com.prompt.marginplus.entities.User"/>
+<mapping class="com.prompt.marginplus.entities.UserRole"/>
+    </session-factory>
+</hibernate-configuration>
